@@ -37,3 +37,38 @@ html {
   overflow-x: hidden;
   /* scroll-behavior: smooth !important; */
 }
+
+.grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+.divider {
+  width: 1px;
+  height: 24px; /* Adjust height as needed */
+  background-color: #ccc; /* Adjust color as needed */
+  margin: 0 0.4rem; /* Adjust spacing as needed */
+}

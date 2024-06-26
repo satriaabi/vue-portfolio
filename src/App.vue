@@ -1,11 +1,9 @@
 <script setup>
-import Navbar from "./components/Navbar.vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
   <Navbar />
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>

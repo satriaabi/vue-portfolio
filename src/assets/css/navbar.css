@@ -1,0 +1,47 @@
+@import './base.css';
+
+.header {
+  justify-content: space-between;
+  background-color: var(--primary-c-tint);
+  height: 7rem;
+  padding: 0 3rem;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.header-text-logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.main-nav {
+  gap: 2rem;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+#language-select {
+  width: 10rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+  text-indent: 5px;
+}
