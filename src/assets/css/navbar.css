@@ -3,15 +3,23 @@
 .header {
   justify-content: space-between;
   background-color: var(--primary-c-tint);
-  height: 7rem;
+  height: 9.6rem;
   padding: 0 3rem;
   position: relative;
-  border-bottom: 1px solid black;
+  min-width: 100vw;
 }
 
-.header-text-logo {
-  font-size: 1.5rem;
+.header-logo {
+  font-size: 2rem;
   font-weight: 600;
+  gap: 0.8rem;
+}
+
+.logo {
+  height: 6.4rem;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  padding: 0.2rem;
 }
 
 .main-nav {

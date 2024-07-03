@@ -3,5 +3,9 @@
     "home": "Home",
     "skills": "Skills",
     "contacts": "Contacts"
+  },
+  "hero": {
+    "heading": "Hello! I'm Abi",
+    "description": "a Front-end Developer based in Jakarta."
   }
 }

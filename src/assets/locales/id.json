@@ -3,5 +3,9 @@
     "home": "Beranda",
     "skills": "Keahlian",
     "contacts": "Kontak"
+  },
+  "hero": {
+    "heading": "Halo! Saya Abi",
+    "description": "seorang Front-end Developer yang berbasis di Jakarta."
   }
 }

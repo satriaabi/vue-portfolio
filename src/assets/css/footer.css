@@ -1,0 +1,47 @@
+@import './base.css';
+
+.footer {
+  padding: 4rem 0;
+  border-top: 1px solid #eee;
+  background-color: #fae5d3;
+}
+
+.footer-description {
+  font-size: 3rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.grid--footer {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 3.6rem;
+  width: 3.6rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #767676;
+  margin-top: 3.2rem;
+  text-align: center;
+}

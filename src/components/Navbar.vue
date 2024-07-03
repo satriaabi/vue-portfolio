@@ -1,6 +1,12 @@
 <template>
   <header class="header flex">
-    <span class="header-text-logo">Satria <a href="#"> Logo </a> Abimanyu</span>
+    <a href="#skills" class="header-logo flex">
+      <img class="logo" src="@/assets/img/man-person-icon.svg" alt="logo" />
+      <div class="grid grid-rows--2">
+        <span>Satria</span>
+        <span>Abimanyu</span>
+      </div>
+    </a>
 
     <nav class="main-nav flex">
       <ul class="main-nav-list flex">
@@ -35,9 +41,8 @@
   </header>
 </template>
 <script setup>
+import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
-import enLocale from '@/assets/locales/en.json'; // Adjust the path as per your project structure
-import idLocale from '@/assets/locales/id.json';
 
 const { t, locale } = useI18n();
 
@@ -46,7 +51,7 @@ const languages = {
   id: 'Indonesia',
 };
 
-let selectedLanguage = locale.value; // Default language
+const selectedLanguage = ref(locale.value); // Default language
 
 const changeLanguage = event => {
   locale.value = event.target.value;
